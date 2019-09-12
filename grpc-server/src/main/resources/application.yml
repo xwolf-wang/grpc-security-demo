@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: local-grpc-server
+grpc:
+  server:
+    port: 9898
+#    security:
+#      enabled: true
+#      certificate-chain-path: CA/server.cer
+#      private-key-path: CA/server.key
+#      client-auth: require
